@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#nav-bar-desktop ul {
+  display: flex;
+}
+
+#nav-bar-desktop {
+  justify-content: center;
+  padding: 2rem;
+}
+
+#menu-icon,
+#nav-bar-mobile {
+  display: none;
+}
+
+.link-menu-hover::after {
+  background-color: var(--color-3);
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #nav-bar-desktop ul li a {
+    font-size: 1.2rem;
+  }
+}

@@ -9,17 +9,48 @@
       content="Portfólio de Luiz Guilherme - Desenvolvedor Web Front end"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/07531f85f9.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="assets/style/desktop-menu.css"
+      media="screen and (min-width:768px)"
+    />
+    <script
+      src="https://kit.fontawesome.com/07531f85f9.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>Sobre Mim</li>
-        <li>Projetos</li>
-        <li>Habilidades</li>
-        <li>Contato</li>
-      </ul>
-    </nav>
+    <section>
+      <nav id="nav-bar-desktop">
+        <ul>
+          <li><a class="nav-desktop-link link-menu-hover" href="#">Sobre Mim</a></li>
+          <li><a class="nav-desktop-link link-menu-hover" href="#">Projetos</a></li>
+          <li><a class="nav-desktop-link link-menu-hover" href="#">Habilidades</a></li>
+          <li><a class="nav-desktop-link link-menu-hover" href="#">Contato</a></li>
+        </ul>
+
+        <button id="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <nav id="nav-bar-mobile">
+        <ul>
+          <li>
+            <a class="nav-mobile-link link-menu-hover" href="#">Sobre Mim</a>
+          </li>
+          <li>
+            <a class="nav-mobile-link link-menu-hover" href="#">Projetos</a>
+          </li>
+          <li>
+            <a class="nav-mobile-link link-menu-hover" href="#">Habilidades</a>
+          </li>
+          <li>
+            <a class="nav-mobile-link link-menu-hover" href="#">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
 
     <header>
       <h1>
@@ -66,25 +97,29 @@
             alt="Banner Gráfica TS"
           />
           <i class="fa-brands fa-github"></i>
-          <a href="https://github.com/luizguilhermeb/projeto-site-grafica-ts">Github</a>
+          <a href="https://github.com/luizguilhermeb/projeto-site-grafica-ts"
+            >Github</a
+          >
           <i class="fa-solid fa-globe"></i>
           <a href="https://graficats.netlify.app/">Deploy</a>
         </div>
 
         <div>
-            <h2>Site Cafezinho Bom</h2>
-            <p>HTML | CSS</p>
-            <img
-              src="assets/img/banner-projetos/banner-cafezinho-bom.webp"
-              alt="Banner Cafezinho Bom"
-            />
-            <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/luizguilhermeb/projeto-site-grafica-ts">Github</a>
-            <i class="fa-solid fa-globe"></i>
-            <a href="https://graficats.netlify.app/">Deploy</a>
-          </div>
+          <h2>Site Cafezinho Bom</h2>
+          <p>HTML | CSS</p>
+          <img
+            src="assets/img/banner-projetos/banner-cafezinho-bom.webp"
+            alt="Banner Cafezinho Bom"
+          />
+          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/luizguilhermeb/projeto-site-grafica-ts"
+            >Github</a
+          >
+          <i class="fa-solid fa-globe"></i>
+          <a href="https://graficats.netlify.app/">Deploy</a>
+        </div>
 
-          <p>Mais projetos em breve...</p>
+        <p>Mais projetos em breve...</p>
       </section>
 
       <section>
@@ -93,26 +128,26 @@
         <h2>Fortes</h2>
 
         <div>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
         </div>
 
         <h2>Em desenvolvimento</h2>
 
         <div>
-            <i class="fa-brands fa-git-alt"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-git-alt"></i>
+          <i class="fa-brands fa-github"></i>
         </div>
       </section>
     </main>
 
     <footer>
-        <h1>Contato</h1>
-        <p>luizbarreto.tech@gmail.com</p>
+      <h1>Contato</h1>
+      <p>luizbarreto.tech@gmail.com</p>
 
-        <i class="fa-brands fa-github"></i>
-        <a href="https://github.com/luizguilhermeb">github.com/luizguilhermeb</a>
+      <i class="fa-brands fa-github"></i>
+      <a href="https://github.com/luizguilhermeb">github.com/luizguilhermeb</a>
     </footer>
   </body>
 </html>
