@@ -14,22 +14,26 @@
       href="assets/style/desktop-menu.css"
       media="screen and (min-width:768px)"
     />
-    <script
-      src="https://kit.fontawesome.com/07531f85f9.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
-    <section>
+    <section id="nav-bar">
       <nav id="nav-bar-desktop">
         <ul>
-          <li><a class="nav-desktop-link link-menu-hover" href="#">Sobre Mim</a></li>
-          <li><a class="nav-desktop-link link-menu-hover" href="#">Projetos</a></li>
-          <li><a class="nav-desktop-link link-menu-hover" href="#">Habilidades</a></li>
-          <li><a class="nav-desktop-link link-menu-hover" href="#">Contato</a></li>
+          <li>
+            <a class="nav-desktop-link link-menu-hover" href="#">Sobre Mim</a>
+          </li>
+          <li>
+            <a class="nav-desktop-link link-menu-hover" href="#">Projetos</a>
+          </li>
+          <li>
+            <a class="nav-desktop-link link-menu-hover" href="#">Habilidades</a>
+          </li>
+          <li>
+            <a class="nav-desktop-link link-menu-hover" href="#">Contato</a>
+          </li>
         </ul>
 
-        <button id="menu-icon">
+        <button id="menu-icon" onclick="menuShow()">
           <i class="fa-solid fa-bars"></i>
         </button>
       </nav>
@@ -53,18 +57,19 @@
     </section>
 
     <header>
-      <h1>
-        Olá, eu sou <br />
-        Luiz Guilherme <br />
-        Desenvolvedor Web
+      <h1 id="master-title">
+        <span class="master-title-span">Olá, eu sou</span>
+        <span class="master-title-span" id="teste">Luiz Guilherme</span>
+        <span class="master-title-span">Desenvolvedor Web</span>
       </h1>
 
       <img
-        src="assets/img/header/ilustracao-luiz.webp"
+        id="illustration-luiz"
+        src="assets/img/header/illustration-luiz-mobile.svg"
         alt="Ilustração de Luiz Guilherme"
       />
 
-      <a href="http://github.com/luizguilhermeb" target="_blank" rel="author"
+      <a href="http://github.com/luizguilhermeb" target="_blank" rel="author" id="master-link"
         >Github</a
       >
     </header>
@@ -150,4 +155,10 @@
       <a href="https://github.com/luizguilhermeb">github.com/luizguilhermeb</a>
     </footer>
   </body>
+
+  <script src="assets/script/script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/07531f85f9.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
