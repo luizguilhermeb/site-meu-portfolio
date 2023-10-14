@@ -133,7 +133,7 @@ a {
   font-size: 1.3rem;
   font-weight: 600;
   padding-bottom: 0.75rem;
-  border-bottom: 2px solid var(--color-6);
+  border-bottom: 0.125rem solid var(--color-6);
 }
 
 .nav-mobile-link:visited {
@@ -150,6 +150,7 @@ header {
 
 .master-title-span {
   display: block;
+  text-align: center;
 }
 
 .master-title-span:nth-child(1) {
@@ -175,11 +176,11 @@ header {
 
 @keyframes floating {
   50% {
-    bottom: 0.5rem;
+    bottom: 1rem;
   }
 
   100% {
-    bottom: -0.5rem;
+    bottom: -1rem;
   }
 }
 
@@ -188,9 +189,10 @@ header {
   margin: 2rem auto;
   color: #2c352d;
   width: 70vw;
+  max-width: 17rem;
   position: relative;
-  bottom: -0.5rem;
-  animation: floating 2s cubic-bezier(0.25, 0.25, 0.75, 0.75) infinite;
+  bottom: -1rem;
+  animation: floating 3.3s cubic-bezier(0.25, 0.25, 0.75, 0.75) infinite;
 }
 
 #master-link {
@@ -202,7 +204,6 @@ header {
   margin: 3rem auto;
   width: fit-content;
   border-radius: 1rem;
-  border: 1px solid var(--color-1);
 }
 
 #master-link:active {
