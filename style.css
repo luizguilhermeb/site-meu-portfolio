@@ -258,15 +258,25 @@ header {
   margin: 4rem 0rem;
 }
 
+#container-projects{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: auto;
+  height: 30rem;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+}
+
 .project {
-  display: inline-block;
-  width: 90vw;
-  max-width: 20rem;
+  padding-top: 2.5rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  flex-basis: 90vw;
+  height: 29rem;
   background-color: var(--color-10);
   border: 1px solid var(--color-5);
-  box-shadow: 0px 0px 10px var(--color-5);
-  margin: 2rem 0rem;
-  padding: 2rem 0rem;
+  box-shadow: 0px 0px 5px var(--color-5);
 }
 
 .tittle-project {
@@ -281,9 +291,8 @@ header {
 .img-project {
   display: block;
   width: 80vw;
-  max-width: 15rem;
-  height: 80vw;
-  max-height: 15rem;
+  max-width: 13rem;
+  height: 13rem;
   margin: 2rem auto;
   border: 1px solid var(--color-5);
   border-radius: 10px;
@@ -295,10 +304,21 @@ header {
   font-size: 1.4rem;
 }
 
+.github-icon-project:hover,
+.deploy-icon-project:hover {
+  color: var(--color-7);
+}
+
 .github-link-project,
 .deploy-link-project {
   color: var(--color-8);
   font-size: 1.4rem;
+}
+
+.github-link-project:hover,
+.deploy-link-project:hover {
+  text-decoration: underline;
+  color: var(--color-7);
 }
 
 .github-link-project:visited,
