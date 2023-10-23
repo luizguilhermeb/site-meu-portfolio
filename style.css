@@ -244,7 +244,7 @@ header {
 
 #ultimos-projetos {
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 0rem;
 }
 
 #ultimos-projetos > p {
@@ -261,7 +261,7 @@ header {
 }
 
 #container-projects {
-  padding: 0.5rem;
+  padding: 1.5rem 0.5rem;
   overflow: auto;
   display: flex;
   column-gap: 4rem;
@@ -281,6 +281,13 @@ header {
 
 .tittle-project {
   color: var(--color-8);
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.tittle-project:hover {
+  text-decoration: none;
 }
 
 .technologies-project {
@@ -324,4 +331,28 @@ header {
 .github-link-project:visited,
 .deploy-link-project:visited {
   color: var(--color-5);
+}
+
+@keyframes pointing-hand {
+  0% {
+    transform: translateX(30px);
+  }
+  50% {
+    transform: translateX(-30px) rotateY(20deg);
+  }
+
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+#hand-icon {
+  width: fit-content;
+  margin: 2rem auto;
+  animation: pointing-hand 3s infinite;
+}
+
+#hand-icon i{
+  color: var(--color-8);
+  font-size: 3rem;
 }

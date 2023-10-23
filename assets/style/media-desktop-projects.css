@@ -3,3 +3,20 @@
 #container-projects {
   justify-content: center;
 }
+
+@media screen and (min-width:992px) {
+  .project {
+    transform: rotate3d(1, 1, 0, 10deg);
+    transition: 0.3s;
+  }
+  
+  .project:hover {
+    transform: rotate3d(0, 0, 0, 0deg);
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px var(--color-5);
+  }
+}
+
+#hand-icon {
+  display: none;
+}
