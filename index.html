@@ -25,6 +25,12 @@
       href="assets/style/media-desktop-projects.css"
       media="screen and (min-width: 720px)"
     />
+
+    <link
+      rel="stylesheet"
+      href="assets/style/media-desktop-skills.css"
+      media="screen and (min-width: 720px)"
+    />
   </head>
   <body>
     <section id="nav-bar">
@@ -111,8 +117,12 @@
 
         <div id="container-projects">
           <div class="project">
-            <a  href="https://graficats.netlify.app/" target="_blank"
-            class="tittle-project">Site Gráfica TS</a>
+            <a
+              href="https://graficats.netlify.app/"
+              target="_blank"
+              class="tittle-project"
+              >Site Gráfica TS</a
+            >
             <p class="technologies-project">HTML | CSS | JS</p>
             <img
               class="img-project"
@@ -147,7 +157,12 @@
             >
           </div>
           <div class="project">
-            <a href="https://luizguilhermeb.github.io/curso-html-css/projetos/cafezinho-bom/" target="_blank" class="tittle-project">Site Cafezinho Bom</a>
+            <a
+              href="https://luizguilhermeb.github.io/curso-html-css/projetos/cafezinho-bom/"
+              target="_blank"
+              class="tittle-project"
+              >Site Cafezinho Bom</a
+            >
             <p class="technologies-project">HTML | CSS</p>
             <img
               class="img-project"
@@ -190,22 +205,50 @@
         <p>Mais projetos em breve...</p>
       </section>
 
-      <section>
+      <section id="habilidades">
         <h1>Habilidades</h1>
 
         <h2>Fortes</h2>
 
-        <div>
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-css3-alt"></i>
+        <div class="container-skills">
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-html" class="fa-brands fa-html5 skill-icon"></i>
+            </div>
+            <p class="skill-label">HTML</p>
+          </div>
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-css" class="fa-brands fa-css3-alt skill-icon"></i>
+            </div>
+            <p class="skill-label">CSS</p>
+          </div>
         </div>
 
         <h2>Em desenvolvimento</h2>
 
-        <div>
-          <i class="fa-brands fa-square-js"></i>
-          <i class="fa-brands fa-git-alt"></i>
-          <i class="fa-brands fa-github"></i>
+        <div class="container-skills">
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i
+                id="icon-javascript"
+                class="fa-brands fa-square-js skill-icon"
+              ></i>
+            </div>
+            <p class="skill-label">Javascript</p>
+          </div>
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-git" class="fa-brands fa-git-alt skill-icon"></i>
+            </div>
+            <p class="skill-label">GIT</p>
+          </div>
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-github" class="fa-brands fa-github skill-icon"></i>
+            </div>
+            <p class="skill-label">Github</p>
+          </div>
         </div>
       </section>
     </main>

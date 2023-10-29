@@ -4,7 +4,7 @@
 
 :root {
   --color-1: #280101e6;
-  --color-2: #e6e6e6;
+  --color-2: #ebebeb;
   --color-3: #9bf2a1;
   --color-4: #aadadab3;
   --color-5: #275950;
@@ -13,6 +13,12 @@
   --color-8: #2a8c82;
   --color-9: #6f5656e6;
   --color-10: #e9e9e9;
+
+  --color-html: #e44d26;
+  --color-css: #2465f1;
+  --color-javascript: #f7e018;
+  --color-git: #f15032;
+  --color-github: #171515;
 
   --color-black-shadow: #000000ca;
   --color-transparent: #00000000;
@@ -244,7 +250,7 @@ header {
 
 #ultimos-projetos {
   text-align: center;
-  padding: 1rem 0rem;
+  margin: 4rem 0rem;
 }
 
 #ultimos-projetos > p {
@@ -257,7 +263,7 @@ header {
 #ultimos-projetos h1 {
   font-size: 3rem;
   color: var(--color-8);
-  margin: 4rem 0rem;
+  margin-bottom: 2rem;
 }
 
 #container-projects {
@@ -352,7 +358,65 @@ header {
   animation: pointing-hand 3s infinite;
 }
 
-#hand-icon i{
+#hand-icon i {
   color: var(--color-8);
   font-size: 3rem;
+}
+
+#habilidades {
+  background-color: var(--color-5);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#habilidades h1,
+#habilidades h2 {
+  color: var(--color-2);
+}
+
+#habilidades h1 {
+  font-size: 2.2rem;
+  padding: 2rem 0rem;
+}
+
+#habilidades h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: underline;
+  padding-bottom: 2rem;
+}
+
+.container-skills {
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-icon-skill {
+  background-color: var(--color-2);
+  width: fit-content;
+  margin: auto;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  font-size: 4rem;
+  color: var(--color-1);
+  transition: 0.3s;
+}
+
+.skill-label {
+  color: var(--color-2);
+  margin-bottom: 1rem;
+  font-weight: 500;
 }

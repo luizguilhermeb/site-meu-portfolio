@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.skill:hover #icon-html {
+  color: var(--color-html);
+}
+
+.skill:hover #icon-css {
+  color: var(--color-css);
+}
+
+.skill:hover #icon-javascript {
+  color: var(--color-javascript);
+}
+
+.skill:hover #icon-git {
+  color: var(--color-git);
+}
+
+.skill:hover #icon-github {
+  color: var(--color-github);
+}
