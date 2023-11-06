@@ -39,9 +39,25 @@ img {
   font-family: var(--font-main);
 }
 
+*::selection {
+  background-color: var(--color-8);
+  color: var(--color-10);
+}
+
 html {
   scroll-padding-top: 5.5rem;
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-1) var(--color-10);
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-1);
+  border-radius: 4px;
 }
 
 body {
