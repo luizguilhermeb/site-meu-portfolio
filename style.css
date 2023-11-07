@@ -215,8 +215,7 @@ header {
   display: block;
   margin: 2rem auto;
   color: #2c352d;
-  width: 70vw;
-  max-width: 17rem;
+  width: 15rem;
   position: relative;
   bottom: -1rem;
   animation: floating 3.3s cubic-bezier(0.25, 0.25, 0.75, 0.75) infinite;
