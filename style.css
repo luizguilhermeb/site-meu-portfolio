@@ -325,8 +325,7 @@ header {
 
 .img-project {
   display: block;
-  width: 80vw;
-  max-width: 13rem;
+  width: 13rem;
   height: 13rem;
   margin: 2rem auto;
   border: 1px solid var(--color-5);
