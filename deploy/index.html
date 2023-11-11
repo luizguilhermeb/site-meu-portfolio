@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luiz Guilherme - Portfólio</title>
+    <link rel="shortcut icon" href="favorite-icon.ico" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Portfólio de Luiz Guilherme - Desenvolvedor Web Front end"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/style/media-desktop-menu.css"
+      media="screen and (min-width:768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/style/media-desktop-header.css"
+      media="screen and (min-width: 992px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/style/media-desktop-projects.css"
+      media="screen and (min-width: 720px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/style/media-desktop-skills.css"
+      media="screen and (min-width: 720px)"
+    />
+  </head>
+  <body>
+    <section id="nav-bar">
+      <nav id="nav-bar-desktop">
+        <ul>
+          <li>
+            <a
+              class="nav-desktop-link link-menu-hover"
+              href="#sobre-mim"
+              rel="internal"
+              >Sobre Mim</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-desktop-link link-menu-hover"
+              href="#ultimos-projetos"
+              rel="internal"
+              >Projetos</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-desktop-link link-menu-hover"
+              href="#skills"
+              rel="internal"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-desktop-link link-menu-hover"
+              href="#contato"
+              rel="internal"
+              >Contato</a
+            >
+          </li>
+        </ul>
+
+        <button aria-label="menu" id="menu-icon" onclick="menuShow()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <nav id="nav-bar-mobile">
+        <ul>
+          <li>
+            <a
+              class="nav-mobile-link link-menu-hover"
+              href="#sobre-mim"
+              rel="internal"
+              >Sobre Mim</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-mobile-link link-menu-hover"
+              href="#ultimos-projetos"
+              rel="internal"
+              >Projetos</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-mobile-link link-menu-hover"
+              href="#skills"
+              rel="internal"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav-mobile-link link-menu-hover"
+              href="#contato"
+              rel="internal"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <header>
+      <h1 id="master-title">
+        <span class="master-title-span">Olá, eu sou</span>
+        <span class="master-title-span" id="teste">Luiz Guilherme</span>
+        <span class="master-title-span">Desenvolvedor Web</span>
+      </h1>
+
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcset="assets/img/header/illustration-luiz.webp"
+          type="image/webp"
+          id="illustration-luiz"
+          alt="Ilustração de Luiz Guilherme"
+        />
+        <img
+          src="assets/img/header/illustration-luiz-mobile.webp"
+          alt="Ilustração de Luiz Guilherme"
+          id="illustration-luiz"
+        />
+      </picture>
+
+      <a
+        href="http://github.com/luizguilhermeb"
+        target="_blank"
+        rel="author"
+        id="master-link"
+        >Github</a
+      >
+    </header>
+
+    <main>
+      <section id="sobre-mim">
+        <h1>Sobre Mim</h1>
+        <ul>
+          <li>
+            Desenvolvo sites para pessoas e empresas com o objetivo de praticar
+            conhecimentos em Front-End.
+          </li>
+          <li>Agora estou focado em praticar HTML, CSS e JS com projetos.</li>
+          <li>Tenho a meta de se tornar um Senior Front-End Developer.</li>
+          <li>
+            Iniciei na programação porque sou apaixonado por tecnologia, e vi o
+            grande potencial que esse mercado tem.
+          </li>
+        </ul>
+      </section>
+
+      <section id="ultimos-projetos">
+        <h1>Últimos Projetos</h1>
+
+        <div id="container-projects">
+          <div class="project">
+            <a
+              href="https://graficats.netlify.app/"
+              target="_blank"
+              class="tittle-project"
+              >Site Gráfica TS</a
+            >
+            <p class="technologies-project">HTML | CSS | JS</p>
+            <img
+              class="img-project"
+              src="assets/img/banner-projetos/banner-site-grafica-ts.webp"
+              alt="Banner Gráfica TS"
+            />
+            <a
+              href="https://github.com/luizguilhermeb/projeto-site-grafica-ts"
+              target="_blank"
+              rel="external"
+              aria-label="Github"
+              ><i class="fa-brands fa-github github-icon-project"></i
+            ></a>
+            <a
+              class="github-link-project"
+              href="https://github.com/luizguilhermeb/projeto-site-grafica-ts"
+              target="_blank"
+              rel="external"
+              >Github</a
+            >
+            <a
+              href="https://graficats.netlify.app/"
+              target="_blank"
+              rel="external"
+              aria-label="Deploy"
+              ><i class="fa-solid fa-globe deploy-icon-project"></i
+            ></a>
+            <a
+              class="deploy-link-project"
+              href="https://graficats.netlify.app/"
+              target="_blank"
+              rel="external"
+              >Deploy</a
+            >
+          </div>
+          <div class="project">
+            <a
+              href="https://luizguilhermeb.github.io/curso-html-css/projetos/cafezinho-bom/"
+              target="_blank"
+              class="tittle-project"
+              >Site Cafezinho Bom</a
+            >
+            <p class="technologies-project">HTML | CSS</p>
+            <img
+              class="img-project"
+              src="assets/img/banner-projetos/banner-site-cafezinho-bom.webp"
+              alt="Banner Cafezinho Bom"
+            />
+            <a
+              href="https://github.com/luizguilhermeb/curso-html-css/tree/main/projetos/cafezinho-bom"
+              target="_blank"
+              rel="external"
+              aria-label="Github"
+              ><i class="fa-brands fa-github github-icon-project"></i
+            ></a>
+            <a
+              class="github-link-project"
+              href="https://github.com/luizguilhermeb/curso-html-css/tree/main/projetos/cafezinho-bom"
+              target="_blank"
+              rel="external"
+              >Github</a
+            >
+            <a
+              href="https://luizguilhermeb.github.io/curso-html-css/projetos/cafezinho-bom/"
+              target="_blank"
+              rel="external"
+              aria-label="Deploy"
+              ><i class="fa-solid fa-globe deploy-icon-project"></i
+            ></a>
+            <a
+              class="deploy-link-project"
+              href="https://luizguilhermeb.github.io/curso-html-css/projetos/cafezinho-bom/"
+              target="_blank"
+              rel="external"
+              >Deploy</a
+            >
+          </div>
+        </div>
+
+        <div id="hand-icon">
+          <i class="fa-solid fa-hand-pointer"></i>
+        </div>
+
+        <p>Mais projetos em breve...</p>
+      </section>
+
+      <section id="skills">
+        <h1>Skills</h1>
+
+        <h2>Fortes</h2>
+
+        <div class="container-skills">
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-html" class="fa-brands fa-html5 skill-icon"></i>
+            </div>
+            <p class="skill-label">HTML</p>
+          </div>
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-css" class="fa-brands fa-css3-alt skill-icon"></i>
+            </div>
+            <p class="skill-label">CSS</p>
+          </div>
+        </div>
+
+        <h2>Em desenvolvimento</h2>
+
+        <div class="container-skills">
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i
+                id="icon-javascript"
+                class="fa-brands fa-square-js skill-icon"
+              ></i>
+            </div>
+            <p class="skill-label">Javascript</p>
+          </div>
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-git" class="fa-brands fa-git-alt skill-icon"></i>
+            </div>
+            <p class="skill-label">GIT</p>
+          </div>
+          <div class="skill">
+            <div class="container-icon-skill">
+              <i id="icon-github" class="fa-brands fa-github skill-icon"></i>
+            </div>
+            <p class="skill-label">Github</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <div class="contato-container">
+        <h1>Contato</h1>
+        <p>luizbarreto.tech@gmail.com</p>
+      </div>
+
+      <div class="contato-container">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/luizguilhermeb" target="_blank" rel="author"
+          >github.com/luizguilhermeb</a
+        >
+      </div>
+    </footer>
+  </body>
+
+  <script src="assets/script/script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/07531f85f9.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
